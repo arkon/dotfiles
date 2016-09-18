@@ -1,0 +1,11 @@
+[include]
+	path = .gitconfig_common
+[user]
+	name = Eugene Cheung
+	email = ey.cheung@outlook.com
+	signingkey = E1FD745328866B0A
+[commit]
+	template = /Users/eugene/.stCommitMsg
+	gpgsign = true
+[core]
+	excludesfile = /Users/eugene/.gitignore_global

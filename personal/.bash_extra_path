@@ -1,0 +1,9 @@
+# Mono
+export PATH="$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin"
+
+# Android (ADB, fastboot)
+export PATH="$PATH:/Users/eugene/Library/Android/sdk/platform-tools"
+export ANDROID_HOME="/Users/eugene/Library/Android/sdk/"
+
+# PSP sync script
+export PATH="$PATH:/Users/eugene/Dropbox/PSP"

@@ -1,0 +1,18 @@
+# Yarn
+export PATH="$PATH:$HOME/.yarn/bin"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+. "$(brew --prefix nvm)/nvm.sh"
+
+# rbenv
+eval "$(rbenv init -)"
+
+# pyenv
+# export PYENV_ROOT=/usr/local/var/pyenv
+if which pyenv > /dev/null; then
+     eval "$(pyenv init -)";
+fi
+
+# GPG
+export GPG_TTY=$(tty)

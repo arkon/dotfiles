@@ -1,0 +1,26 @@
+# CDF
+alias cdf='ssh cheun550@teach.cs.toronto.edu'
+
+# Show/hide hidden files in Finder
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Navigation
+alias ..='cd ..'
+alias cd..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ex='exit'
+
+# Misc
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias weather='curl wttr.in'
+alias space='df -h'
+alias rm_dsstore="find . -name '.DS_Store' -type f -delete"
+alias npmr='npm run'
+
+# Applications
+alias nodejs='node'
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"

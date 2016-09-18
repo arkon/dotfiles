@@ -1,0 +1,11 @@
+*~
+.DS_Store
+.idea
+*.sublime-project
+*.sublime-workspace
+.classpath
+.project
+.settings/
+*.iml
+build
+eclipse-bin
